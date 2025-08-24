@@ -1,18 +1,16 @@
-🚗 ESP32 Smart Car
+🕸️ Web Quotes Scraper
 
-An IoT and robotics project where I built a Wi-Fi/Bluetooth controlled smart car using ESP32.
-The car supports manual control and autonomous features such as:
+A Python project where I developed a web scraper that collects and organizes inspirational quotes from websites.
+Key capabilities include:
 
-Real-time motion control (Forward, Backward, Left, Right, Stop)
+Extracting quotes with text + author attribution
 
-Collision avoidance with Ultrasonic Sensor
+Handling pagination and multiple pages automatically
 
-Line Following Algorithm for self-navigation
+Cleaning and structuring scraped data
 
-Camera Streaming via ESP32-CAM for live monitoring
+Exporting results to CSV/JSON datasets
 
-Compact and low-power hardware design
+Tech Stack: Python, Scrapy, Pandas, Requests/BeautifulSoup
 
-Tech Stack: ESP32, ESP32-CAM, Ultrasonic & IR sensors, L298N Motor Driver, Arduino IDE (C/C++), Wi-Fi & Bluetooth communication
-
-This project highlights my skills in embedded systems, IoT communication, sensor integration, and robotics control systems.
+This project showcases my skills in web scraping, data cleaning, pipeline design, and dataset generation for downstream applications.
