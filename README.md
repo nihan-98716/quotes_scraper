@@ -1,59 +1,18 @@
-# quotes_scraper
+🚗 ESP32 Smart Car
 
-🕸️ Web Quotes Scraper
+An IoT and robotics project where I built a Wi-Fi/Bluetooth controlled smart car using ESP32.
+The car supports manual control and autonomous features such as:
 
-A Python-based scraper that collects inspirational quotes from the web and stores them in a clean dataset.
-This project demonstrates web scraping, data cleaning, and storage using Scrapy and Python.
+Real-time motion control (Forward, Backward, Left, Right, Stop)
 
-🔧 Features
+Collision avoidance with Ultrasonic Sensor
 
-Scrapes quotes (text + author) from websites
+Line Following Algorithm for self-navigation
 
-Handles pagination automatically
+Camera Streaming via ESP32-CAM for live monitoring
 
-Cleans and structures scraped data
+Compact and low-power hardware design
 
-Exports to CSV/JSON format
+Tech Stack: ESP32, ESP32-CAM, Ultrasonic & IR sensors, L298N Motor Driver, Arduino IDE (C/C++), Wi-Fi & Bluetooth communication
 
-🛠️ Tech Stack
-
-Language: Python
-
-Framework: Scrapy
-
-Libraries: Pandas, Requests, BeautifulSoup (optional)
-
-Output: CSV, JSON
-
-📂 Project Structure
-
-quotes_scraper/
-│── quotes/
-│ ├── spiders/
-│ │ └── quotes_spider.py # Core scraper logic
-│ ├── items.py # Data structure
-│ ├── pipelines.py # Data cleaning pipeline
-│ └── settings.py # Scrapy settings
-│── data/
-│ └── quotes.csv # Cleaned output
-│── README.md
-
-🚀 Getting Started
-
-Clone the repo
-git clone https://github.com/yourusername/quotes_scraper.git
-cd quotes_scraper
-
-Install dependencies
-pip install scrapy pandas
-
-Run the scraper
-scrapy crawl quotes -o data/quotes.csv
-
-📌 Future Enhancements
-
-Add multi-site scraping
-
-Build a REST API for serving scraped quotes
-
-Integrate with frontend dashboard
+This project highlights my skills in embedded systems, IoT communication, sensor integration, and robotics control systems.
